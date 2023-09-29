@@ -509,6 +509,6 @@ globalThis.addEventListener('unload', (e) => {
 
 // 启动服务器
 serve(handler, {
-    port: 8080,
+    port: 8000,
     hostname: '0.0.0.0'
 });
